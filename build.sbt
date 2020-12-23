@@ -14,3 +14,7 @@ ThisBuild / scalacOptions ++= Seq(
 ThisBuild / fork := true
 
 lazy val root = Project("data-structures-and-algorithms", file("."))
+  .aggregate(
+    foundation)
+
+lazy val foundation =  project.in(file("foundation"))
