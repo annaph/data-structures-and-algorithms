@@ -10,3 +10,7 @@ The source code contains different modules for the following chapters:
 1. Chapter 1 - Foundational Components
 
     Module name: **foundation**
+
+2. Chapter 2 - Fundamental Algorithms
+
+    Module name: **fundamental**
