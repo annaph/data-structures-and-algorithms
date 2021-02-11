@@ -14,3 +14,7 @@ The source code contains different modules for the following chapters:
 2. Chapter 2 - Fundamental Algorithms
 
     Module name: **fundamental**
+
+3. Chapter 3 - Arrays
+
+   Module name: **arrays**

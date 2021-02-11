@@ -15,9 +15,12 @@ ThisBuild / fork := true
 
 lazy val root = Project("data-structures-and-algorithms", file(".")).aggregate(
   foundation,
-  fundamental
+  fundamental,
+  arrays
 )
 
 lazy val foundation = project.in(file("foundation"))
 
 lazy val fundamental = project.in(file("fundamental"))
+
+lazy val arrays = project.in(file("arrays"))
