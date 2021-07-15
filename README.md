@@ -18,3 +18,7 @@ The source code contains different modules for the following chapters:
 3. Chapter 3 - Arrays
 
    Module name: **arrays**
+
+4. Chapter 4 - Lists
+
+   Module name: **lists**
