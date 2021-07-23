@@ -22,3 +22,7 @@ The source code contains different modules for the following chapters:
 4. Chapter 4 - Lists
 
    Module name: **lists**
+
+5. Chapter 5 - Stacks
+
+   Module name: **stacks**
