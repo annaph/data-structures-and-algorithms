@@ -26,3 +26,7 @@ The source code contains different modules for the following chapters:
 5. Chapter 5 - Stacks
 
    Module name: **stacks**
+
+5. Chapter 6 - Queues
+
+   Module name: **queues**
