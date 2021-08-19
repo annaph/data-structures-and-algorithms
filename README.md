@@ -27,6 +27,10 @@ The source code contains different modules for the following chapters:
 
    Module name: **stacks**
 
-5. Chapter 6 - Queues
+6. Chapter 6 - Queues
 
    Module name: **queues**
+
+7. Chapter 7 - Hash tables
+
+   Module name: **hash-tables**
