@@ -25,7 +25,8 @@ lazy val root = project.in(file(".")).aggregate(
   lists,
   stacks,
   queues,
-  hashTables
+  hashTables,
+  binaryTrees
 )
 
 lazy val foundation = project.in(file("foundation"))
@@ -41,3 +42,5 @@ lazy val stacks = project.in(file("stacks"))
 lazy val queues = project.in(file("queues"))
 
 lazy val hashTables = project.in(file("hash-tables"))
+
+lazy val binaryTrees = project.in(file("binary-trees"))

@@ -34,3 +34,7 @@ The source code contains different modules for the following chapters:
 7. Chapter 7 - Hash tables
 
    Module name: **hash-tables**
+
+8. Chapter 8 - Binary Trees
+
+   Module name: **binary-trees**
