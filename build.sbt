@@ -13,7 +13,12 @@ ThisBuild / scalacOptions ++= Seq(
   "-deprecation",
   "-feature",
   "-unchecked",
-  "-language:implicitConversions")
+  "-language:implicitConversions"
+)
+
+ThisBuild / libraryDependencies  ++= Seq(
+  "com.storm-enroute" %% "scalameter-core" % "0.21"
+)
 
 ThisBuild / fork := true
 ThisBuild / connectInput in run := true
@@ -26,7 +31,8 @@ lazy val root = project.in(file(".")).aggregate(
   stacks,
   queues,
   hashTables,
-  binaryTrees
+  binaryTrees,
+  sorting
 )
 
 lazy val foundation = project.in(file("foundation"))
@@ -44,3 +50,5 @@ lazy val queues = project.in(file("queues"))
 lazy val hashTables = project.in(file("hash-tables"))
 
 lazy val binaryTrees = project.in(file("binary-trees"))
+
+lazy val sorting = project.in(file("sorting"))

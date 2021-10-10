@@ -38,3 +38,7 @@ The source code contains different modules for the following chapters:
 8. Chapter 8 - Binary Trees
 
    Module name: **binary-trees**
+
+9. Chapter 9 - Sorting
+
+   Module name: **sorting**
