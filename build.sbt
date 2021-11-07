@@ -16,7 +16,7 @@ ThisBuild / scalacOptions ++= Seq(
   "-language:implicitConversions"
 )
 
-ThisBuild / libraryDependencies  ++= Seq(
+ThisBuild / libraryDependencies ++= Seq(
   "com.storm-enroute" %% "scalameter-core" % "0.21"
 )
 
@@ -32,7 +32,8 @@ lazy val root = project.in(file(".")).aggregate(
   queues,
   hashTables,
   binaryTrees,
-  sorting
+  sorting,
+  searching
 )
 
 lazy val foundation = project.in(file("foundation"))
@@ -52,3 +53,5 @@ lazy val hashTables = project.in(file("hash-tables"))
 lazy val binaryTrees = project.in(file("binary-trees"))
 
 lazy val sorting = project.in(file("sorting"))
+
+lazy val searching = project.in(file("searching"))

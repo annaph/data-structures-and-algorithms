@@ -42,3 +42,7 @@ The source code contains different modules for the following chapters:
 9. Chapter 9 - Sorting
 
    Module name: **sorting**
+
+10. Chapter 10 - Searching
+
+   Module name: **searching** 
