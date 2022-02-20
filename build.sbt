@@ -55,3 +55,5 @@ lazy val binaryTrees = project.in(file("binary-trees"))
 lazy val sorting = project.in(file("sorting"))
 
 lazy val searching = project.in(file("searching"))
+
+lazy val graphs = project.in(file("graphs"))

@@ -46,3 +46,7 @@ The source code contains different modules for the following chapters:
 10. Chapter 10 - Searching
 
    Module name: **searching** 
+
+11. Chapter 11 - Graphs
+
+   Module name: **graphs** 
